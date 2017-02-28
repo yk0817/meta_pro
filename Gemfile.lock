@@ -1,7 +1,14 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    i18n (0.7.0)
+    monetize (1.6.0)
+      money (~> 6.8)
+    money (6.8.1)
+      i18n (>= 0.6.4, <= 0.7.0)
+      sixarm_ruby_unaccent (>= 1.1.1, < 2)
     power_assert (1.0.1)
+    sixarm_ruby_unaccent (1.1.1)
     test-unit (3.2.3)
       power_assert
 
@@ -9,6 +16,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  monetize
   test-unit
 
 BUNDLED WITH
