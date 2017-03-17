@@ -5,11 +5,11 @@ class Test
 end
 
 obj = Test.new
-p obj.instance_variables #
+p obj.instance_variables #何もなし
 
 obj2 = Test.new
 obj.test2 #@test2を定義
-p obj.instance_variables #
+p obj.instance_variables #@test2
 
 class Test2
   def initialize
