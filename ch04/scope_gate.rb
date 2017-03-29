@@ -3,9 +3,6 @@
 # 上記３つのことをスコープゲートと呼ぶ
 v1 = 1 #→v1
 
-module MyModule
-  v4 = 4
-end
 
 class MyClass
   include MyModule
@@ -20,5 +17,4 @@ end
 
 
 obj = MyClass.new
-obj.my_method
-p local_variables
+obj.my_method.local_variables
